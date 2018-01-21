@@ -18,7 +18,7 @@
     import pandas as pd
     import pandas as pd
     
-    target_url = "http://labfile.oss.aliyuncs.com/courses/1001/train.csv"
+    target_url = "data/train.csv"
     
     data = pd.read_csv(target_url)  
     print("数据集规模：",data.shape)
